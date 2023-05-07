@@ -1,6 +1,6 @@
 function [ B ] = coneHat( A )   
     [n, m] = size(A);
-    r = 15 * min(n, m);
+    r = 1/5 * min(n, m);
     B = zeros(n, m);
     center = [n/2, m/2];
     
